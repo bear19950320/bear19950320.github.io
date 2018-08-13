@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>moment</title>
+
+	<style type="text/css">
+		p{
+			color: red;
+			font-size: 16px;
+			font-weight: 600px;
+			line-height: 20px;
+		}
+	</style>
+</head>
+<body>
+	<p>测试111</p>
+</body>
+</html>
+<script src="./moment/moment.js"></script>
+<script type="text/javascript">
+    var date = new Date();
+    var a = moment([2007, 0, 28]);
+    console.log(a.format('YYYY'))
+    var now = moment('04/02/1995 20:00:23').format("YYYY-MM-DD hh:mm:ss a");
+	console.log(now)
+</script>
